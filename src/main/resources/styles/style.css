@@ -1,0 +1,58 @@
+
+#splash-screen {
+    -fx-background-image: url("../images/splash.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+#progress-box {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-padding: 15;
+    -fx-background-radius: 5;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+
+.progress-bar {
+    -fx-pref-width: 300;
+    -fx-accent: #5E85D6;
+}
+
+
+#login-screen {
+    -fx-background-image: url("../images/login-bg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+#login-form {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-padding: 20;
+    -fx-background-radius: 5;
+    -fx-spacing: 10;
+    -fx-alignment: center-left;
+}
+
+
+.text-field, .password-field {
+    -fx-pref-width: 200;
+    -fx-font-size: 14px;
+    -fx-padding: 8;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+    -fx-background-color: #5E85D6;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #4969a6;
+}
